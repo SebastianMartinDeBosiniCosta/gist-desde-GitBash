@@ -1,0 +1,102 @@
+pwd
+cd Desktop
+pwd
+ls
+cd DEBOSNI_SEBASTIAN_EXAMEN
+ls
+pwd
+ls
+cd DEBOSINI_SEBASTIAN_EXAMEN
+ls
+CD JUNIT
+ls
+mkdir GIT
+ls
+cd GIT
+cd GIT
+ls
+pwd
+git clone https://github.com/SebastianMartinDeBosiniCosta/gist-desde-GitBash.git
+touch info.txt
+ls
+git status
+ls
+cd gist-desde-gitBash
+ls
+git status -s
+cd ..
+ls
+mv info.txt gist-desde-gitBash/info.txt
+ls
+pwd
+cd gist-desde-gitBash
+ls
+pwd
+git status -s
+git add info.txt
+git status -s
+git commit -m "First commit | add info.txt"
+git status -s
+git log -oneline
+git log --oneline
+git push
+ls
+vim info.txt
+cat info.txt
+git status -s
+git add info.txt
+git log --oneline
+git commit -m "Second commit | edit info.txt"
+git log --oneline
+git push
+git
+git
+git switch -c rama2
+git branch
+ls
+vim info.txt
+git status -s
+git commit -m "third commit | add new branch and edit info.txt"
+git add .
+git status -s
+git commit -m "third commit | add new branch and edit info.txt"
+git push -u origin rama2
+git status -s
+git log --oneline
+git checkout -b rama3
+vim info.txt
+git status -s
+git add *.txt
+git status -s
+git log --oneline
+git commit -m "fourth commit | add a new branch and edit info.txt"
+git status -s
+git log --oneline
+git checkout rama2
+git branch
+git merge rama3
+git status -s
+git add .
+git commit -m "fifth commit | merging rama2 and rama3"
+git branch
+git merge rama3
+git branch -D rama3
+git switch main
+git branch
+git merge rama2
+git branch -D rama2
+git branch
+git status -s
+git push origin --delete rama2
+git add .
+git commit -m "last commit | delete branches"
+git switch -c rama2
+vim info.txt
+git checkout main
+git branch -D rama2
+ls
+cat info.txt
+git push
+git log --decorate
+pwd
+history -a miNombre.txt
